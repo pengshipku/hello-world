@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<c3p0-config>
+	<default-config>
+		<property name="jdbcUrl">jdbc:sqlserver://localhost;databaseName=bookstore</property>
+		<property name="driverClass">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
+		<property name="user">sa</property>
+		<property name="password">niit1234</property>
+		<property name="acquireIncrement">3</property>
+		<property name="initialPoolSize">5</property>
+		<property name="minPoolSize">2</property>
+		<property name="maxPoolSize">8</property>
+	</default-config>
+</c3p0-config>
